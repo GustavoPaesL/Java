@@ -1,36 +1,28 @@
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         
-        ArrayList<ArrayList<String>> myList = new ArrayList();
+        //String name = "bro";
+        //int age = 21;
+        //hello(name, age);
 
-        ArrayList<String> listA =new ArrayList();
-        listA.add("pasta");
-        listA.add("garlic");
-        listA.add("donuts");
-        
-        ArrayList<String> listB =new ArrayList();
-        listB.add("coke");
-        listB.add("pepsi");
-        listB.add("guarana");
+        int x = 3;
+        int y = 4;
 
-        ArrayList<String> listC =new ArrayList();
-        listC.add("apple");
-        listC.add("banana");
-        listC.add("orange");
+        int result = add(x,y);
 
-        myList.add(listA);
-        myList.add(listB);
-        myList.add(listC);
+        System.out.println(result);
 
-        for(int i=0; i<myList.size(); i++){
-            System.out.println();
-            for(int j=0; j<myList.get(i).size(); j++){
-                System.out.println(myList.get(i).get(j));
-            }
-        }
-        
     }    
     
+    /*static void hello(String name, int age){
+        System.out.println("Hello " + name);
+        System.out.println("you are " + age + " years old");
+    }*/
+
+    static int add(int x, int y){
+        int z = x + y;
+        return z;
+    }
+
 }
