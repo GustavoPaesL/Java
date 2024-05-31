@@ -1,28 +1,40 @@
 
 public class Main {
-    public static void main(String[] args) {
-        
-        //String name = "bro";
-        //int age = 21;
-        //hello(name, age);
+    public static void main(String[] args) {    
 
-        int x = 3;
-        int y = 4;
+        double x = add(1.3,2.7,3.5);
 
-        int result = add(x,y);
-
-        System.out.println(result);
+        System.out.println(x);
 
     }    
     
-    /*static void hello(String name, int age){
-        System.out.println("Hello " + name);
-        System.out.println("you are " + age + " years old");
-    }*/
+    static int add(int a, int b){
 
-    static int add(int x, int y){
-        int z = x + y;
-        return z;
+        System.out.println("ovload method #1");
+        return a + b;
+
     }
+    
+    static int add(int a, int b, int c){
+
+        System.out.println("ovload method #2");
+        return a + b + c;
+
+    }
+
+    static double add(double a, double b){
+
+        System.out.println("ovload method #1");
+        return a + b;
+
+    }
+    
+    static double add(double a, double b, double c){
+
+        System.out.println("ovload method #2");
+        return a + b + c;
+
+    }
+    
 
 }
