@@ -2,39 +2,43 @@
 public class Main {
     public static void main(String[] args) {    
 
-        double x = add(1.3,2.7,3.5);
+        //printf() = an optional method to control, format, and display text to the console window 
+        //           two arguments = format string + (object/variable/value)
+        //           % [flags] [precision] [width] [conversion-character]
 
-        System.out.println(x);
+        //System.out.printf("This is a format String %d", 111);
+        
+        boolean myBoolean = true;
+        char myChar = '@';
+        String myString = "Bro";
+        int myInt = 50;
+        double myDouble = 1000;
+
+        // [conversion-character]
+        System.out.printf("%b", myBoolean);
+        System.out.printf("%c", myChar);
+        System.out.printf("%s", myString);
+        System.out.printf("%d", myInt);
+        System.out.printf("%f", myDouble);
+
+        // [width]
+        //minimum numeber of characters to be written as output
+        System.out.printf("Hello %10s", myString);
+
+        //  [precision]
+        //sets number of digits of precision when outputting floating-point values
+        System.out.printf("You have this much money %.2f ", myDouble);
+
+        // [flags]
+        // adds an effect to output based  on the flag added to format specifier
+        // - : left-justify
+        // + : output a plus (+) or minus (-) sign for a numeric value
+        // 0 : numeric values are zero-padded
+        // , : comma grouping separetor if numbers > 1000
+
+        System.out.printf("You have this much money %+,f", myDouble);
 
     }    
-    
-    static int add(int a, int b){
-
-        System.out.println("ovload method #1");
-        return a + b;
-
-    }
-    
-    static int add(int a, int b, int c){
-
-        System.out.println("ovload method #2");
-        return a + b + c;
-
-    }
-
-    static double add(double a, double b){
-
-        System.out.println("ovload method #1");
-        return a + b;
-
-    }
-    
-    static double add(double a, double b, double c){
-
-        System.out.println("ovload method #2");
-        return a + b + c;
-
-    }
     
 
 }
