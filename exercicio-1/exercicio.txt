@@ -1,0 +1,8 @@
+Teste de habilidades em Java
+exercício:
+1. Inicialize um array com capacidade para 10 elementos e preencha-o com números inteiros aleatórios.
+2. Ordene o array em ordem crescente, resultando em um novo array.
+3. Calcule a média dos elementos presentes no array.
+4. Gere um novo array(c) contendo apenas os elementos maiores ou iguais à média calculada anteriormente.
+5. Calcule a soma dos elementos deste novo array.
+6. Exiba os números pares e ímpares presentes no array c.
