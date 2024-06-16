@@ -6,7 +6,7 @@ Este repositório foi criado para documentar meu progresso e aprendizagem na lin
 
 - **/Aprendendo**: Esta pasta contém o meu código de aprendizagem mais atualizado.
   
-- **/exercicio**: Aqui, mantenho exercícios práticos que estou desenvolvendo para aplicar os conceitos aprendidos em Java. Cada exercícios tem sua própria pasta e README explicativo.
+- **/exercicio**: Aqui, mantenho exercícios práticos que estou desenvolvendo para aplicar os conceitos aprendidos em Java. Cada exercício tem sua própria pasta e texto explicativo.
 
 
 ## Como Contribuir
