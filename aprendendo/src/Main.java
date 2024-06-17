@@ -2,21 +2,18 @@
 public class Main {
     public static void main(String[] args) {    
 
-        // object = an instance of a class that may contain attributes and methods
-        // example: (phone, desk, computer, coffee cup)
+        //constructor = special method that is called when an object is instantiated (created)
+        
+        Human human1 = new Human("Rick",65,70);
+        Human human2 = new Human("Morty",16,50);
 
-        Car myCar = new Car();
 
-        System.out.println(myCar.make);
-        System.out.println(myCar.model);
-        System.out.println(myCar.year);
-        System.out.println(myCar.color);
-        System.out.println(myCar.price);
-
-        myCar.drive();
-        myCar.brake();
+        System.out.println(human1.name);
+        System.out.println(human2.name);
+        
+        human2.eat();
+        human1.drink();
 
     }    
     
-
 }
