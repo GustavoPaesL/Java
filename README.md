@@ -26,6 +26,7 @@ Aqui estão alguns recursos que estou utilizando e recomendo para quem está com
 
 - Canal no youtube: Bro Code (https://www.youtube.com/@BroCodez)
 - Comunidade: Participe de fóruns online como Stack Overflow e Reddit (/r/java) para fazer perguntas e interagir com outros desenvolvedores.
+- Curso na Udemy: https://www.udemy.com/course/java-curso-completo/
 
 ## Contato
 
